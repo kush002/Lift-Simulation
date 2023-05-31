@@ -8,25 +8,27 @@
     <title>Lift Simulation</title>
   </head>
   <body>
-    <div class="dataContainer">
+    <form class="dataContainer">
       <div class="floorData">
-        <label for="floor">No. of floor:</label>
-        <input type="number" id="floor" />
+        <label for="floorData">No. of floor:</label>
+        <input type="number" id="floorData" value="1" min="1" max="" />
       </div>
       <div class="liftData">
-        <label for="lift">No. of Lift:</label>
-        <input type="number" id="lift" />
+        <label for="liftData">No. of Lift:</label>
+        <input type="number" id="liftData" value="1" min="1" max="2" />
       </div>
-    </div>
+      <button type="submit" id="createUI">Go</button>
+    </form>
+    <main class="main">
+      <section id="section-1"></section>
+      <div id="section-2">
+        <!-- <div class="lift" id="mainLift">
+          <div id="gate-1"></div>
+          <div id="gate-2"></div>
+        </div> -->
+      </div>
+    </main>
 
-    <div class="floor">
-      <div>
-        <button>Up</button>
-        <button>Down</button>
-      </div>
-      <div>
-        <div>Lift</div>
-      </div>
-    </div>
+    <script src="./js/main.js"></script>
   </body>
 </html>
