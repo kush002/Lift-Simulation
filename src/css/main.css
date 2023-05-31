@@ -1,0 +1,29 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  display: flex;
+}
+body {
+  flex: 1;
+  margin: 0;
+  padding: 0;
+}
+
+.dataContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 1rem;
+}
+
+.floorData,
+.liftData {
+  margin: 0 1rem;
+}
+.dataContainer input {
+  width: 50px;
+}
